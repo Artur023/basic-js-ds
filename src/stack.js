@@ -36,12 +36,7 @@ class Stack {
     return this.items[this.count - 1];
   }
 }
-let stack = new Stack();
-console.debug(stack.push(100)) 
-console.debug(stack.push(200)) 
-console.debug(stack)
-console.debug(stack.pop())
-console.debug(stack)
+
 
 module.exports = {
   Stack,
