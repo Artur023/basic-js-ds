@@ -39,6 +39,7 @@ class Queue {
   dequeue() {
     let del = this.head.value
     this.head = this.head.next
+    this.length--
     return del
   }
 }
